@@ -164,12 +164,20 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 
-    
+
     <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Field One</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Field_Three__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field Three</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
